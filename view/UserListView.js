@@ -1,8 +1,6 @@
-// views/UserListView.js
-
 import React, { useEffect, useState } from "react";
 import { View, Text, FlatList, StyleSheet } from "react-native";
-import UserController from "./controller/UserController";
+import UserController from "../controller/UserController";
 
 const UserListView = () => {
   const [users, setUsers] = useState([]);
@@ -28,7 +26,7 @@ const UserListView = () => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 20 },
+  container: { flex: 1, padding: 60 },
   title: { fontSize: 24, fontWeight: "bold", marginBottom: 10 },
   user: { fontSize: 18, marginVertical: 5 },
 });

@@ -1,6 +1,4 @@
-// controllers/UserController.js
-
-import UserModel from "./model/UserModel";
+import UserModel from "../model/UserModel";
 
 class UserController {
   static async getUsers() {
