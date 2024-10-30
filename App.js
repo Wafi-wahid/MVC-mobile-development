@@ -1,5 +1,5 @@
 import React from "react";
-import UserListView from "./views/UserListView";
+import UserListView from "./view/UserListView";
 import { StyleSheet, View } from "react-native";
 
 export default function App() {

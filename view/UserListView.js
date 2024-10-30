@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { View, Text, FlatList, StyleSheet } from "react-native";
-import UserController from "../controllers/UserController";
+import UserController from "./controller/UserController";
 
 const UserListView = () => {
   const [users, setUsers] = useState([]);
